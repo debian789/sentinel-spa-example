@@ -1,0 +1,19 @@
+<div class="sentinel-herramientas-contenedor">
+  <h1>Herramientas</h1>
+  <li>Editor Online
+    <ul>
+      <li> <a [routerLink]="['sentinel-editor/online',123]">Regla - 123</a> </li>
+      <li> <a [routerLink]="['sentinel-editor/online', { idRegla : 234, uen: 999}]">Regla - 234</a> </li>
+      <li> <a [routerLink]="['sentinel-editor/online']" [queryParams]="{id: 456, uen : 888}"  >Regla - 456</a> </li>
+    </ul>
+  </li>
+  <li>Editor RT</li>
+  <ul>
+    <li> <a [routerLink]="['sentinel-editor/online',345]">Regla - 345</a> </li>
+    <li> <a [routerLink]="['sentinel-editor/online', { idRegla : 777, uen: 999}]">Regla - 777</a> </li>
+    <li> <a [routerLink]="['sentinel-editor/online']" [queryParams]="{id: 889, uen : 888}"  >Regla - 889</a> </li>
+    <li> <a [routerLink]="['sentinel-editor/hooola']"  >Regla - undefined</a> </li>
+  </ul>
+</div>
+
+

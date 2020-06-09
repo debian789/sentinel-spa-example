@@ -1,0 +1,14 @@
+{
+  "name": "sentinel-shell",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve -s -l 4200"
+  },
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "serve": "^11.1.0"
+  },
+  "dependencies": {}
+}

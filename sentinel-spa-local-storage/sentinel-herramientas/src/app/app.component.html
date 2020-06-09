@@ -1,0 +1,18 @@
+<div class="sentinel-herramientas-contenedor">
+  <h1>Herramientas</h1>
+  <li>Editor Online
+    <ul>
+      <li><a (click)="openSentinelEditorOnlineLocalStorage(123)">Regla - 123</a></li>
+      <li><a (click)="openSentinelEditorOnlineSessionStorage({ idRegla : 234, uen: 999})">Regla - 234</a></li>
+    </ul>
+  </li>
+
+  <li>Editor RT</li>
+  <ul>
+    <li><a (click)="openSentinelEditorOnlineLocalStorage(345)">Regla - 345</a></li>
+    <li><a (click)="openSentinelEditorOnlineSessionStorage({ idRegla : 777, uen: 999})">Regla - 777</a></li>
+    <li><a [routerLink]="['sentinel-editor/hooola']">Regla - undefined</a></li>
+  </ul>
+</div>
+
+
