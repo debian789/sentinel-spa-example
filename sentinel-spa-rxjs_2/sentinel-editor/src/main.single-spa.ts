@@ -18,13 +18,12 @@ const lifecycles = singleSpaAngular({
     singleSpaPropsSubject.next(singleSpaProps);
     return platformBrowserDynamic().bootstrapModule(AppModule);
   },
-  template: '<sentinel-herramientas-root />',
+  template: '<sentinel-editor-root />',
   Router,
   NgZone: NgZone,
   AnimationEngine: AnimationEngine,
 });
 
 export const bootstrap = lifecycles.bootstrap;
-export const mount =
-  lifecycles.mount;
+export const mount = lifecycles.mount;
 export const unmount = lifecycles.unmount;
